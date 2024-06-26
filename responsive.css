@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    /* font-family: "Nunito", sans-serif;*/
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+}
+
+:root {
+    --primaryColor: #BE9C79;
+    --textDarkColor: #000000;
+    --textLightColor: #FEFEFE;
+    --lightColor: #FFFFFF;
+    --paragraphFontFamily: "Nunito", sans-serif;
+    --headingFont: 76px;
+    --subHeadingFont: 44px;
+    --navLinkFont: 22px;
+    --buttonFont: 18px;
+    --coffeeVarietyParagraph: 16px;
+    --coffeeVarietyHeading: 22px;
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+
+
+/*Responsive design device sizes :::: */
+
+/* small devices (landscape phones ,upto 576px and below */
+@media(width <=576px){
+    .navBody{
+        /*    background-color: rgb(197, 235, 222);*/
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+            }
+}
+
+/*Medium devices (tablets,upto 768px ) */
+@media( width >=577px) and (width<=768px){
+    .navBody{
+        /*    background-color: rgb(197, 235, 222);*/
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+            }
+}
+
+/*Large devices(Labtops. upto 992px ) */
+@media (width >=769px) and (width <=992px){
+    .navBody{
+        /*    background-color: rgb(197, 235, 222);*/
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+            }
+}
+
+/*X-Large devices(large desktops, upto 1200px */
+@media (width >=993px) and (width <=1200px){
+    .navBody{
+        /*    background-color: rgb(197, 235, 222);*/
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+            }
+}
+
+/*XX-Larger devices(larger desktops, upto 1400px)*/
+@media (min-width <=1400px){
+    .navBody{
+        /*    background-color: rgb(197, 235, 222);*/
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+            }
+}
+

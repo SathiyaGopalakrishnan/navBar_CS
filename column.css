@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    /* font-family: "Nunito", sans-serif;*/
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+}
+
+:root {
+    --primaryColor: #BE9C79;
+    --textDarkColor: #000000;
+    --textLightColor: #FEFEFE;
+    --lightColor: #FFFFFF;
+    --paragraphFontFamily: "Nunito", sans-serif;
+    --headingFont: 76px;
+    --subHeadingFont: 44px;
+    --navLinkFont: 22px;
+    --buttonFont: 18px;
+    --coffeeVarietyParagraph: 16px;
+    --coffeeVarietyHeading: 22px;
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.logoBar{
+   /*   background-color: rgb(243, 186, 115);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoBar img{
+    width: 40px;
+    
+}
+
+.navLinks{
+    /*  background-color: rgb(243, 186, 115);*/
+      display:flex;
+      align-items: center;
+      justify-content: space-evenly;
+     
+  }
+  
+  .navLinks li{
+    list-style-type: none;
+    
+  }
+  .navLinks li a{
+    text-decoration: none;
+    font-family: var(--paragraphFontFamily);
+    font-size: 16px;
+    color: var(--textDarkColor);
+  }
